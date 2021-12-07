@@ -7,6 +7,33 @@ rake db:migrate
 git init
 git status
 git add .
+git commit -m "first commit"
+
+heroku login
+heroku create enterpraseape
+git push heroku master
+bundle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
