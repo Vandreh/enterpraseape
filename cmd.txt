@@ -1,0 +1,14 @@
+rails new enterpraseape
+cd enterpraseape
+rake db:create
+rails g scaffold Invoice data:datetime company:string tax:decimal salesperson:string
+rake db:migrate
+
+git init
+git status
+git add .
+
+
+
+
+
