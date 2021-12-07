@@ -13,7 +13,9 @@ heroku login
 heroku create enterpraseape
 git push heroku master
 bundle
-
+git add .
+git commit -m "configuring enviroment to work!"
+git push
 
 
 
