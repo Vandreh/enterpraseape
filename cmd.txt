@@ -16,7 +16,11 @@ bundle
 git add .
 git commit -m "configuring enviroment to work!"
 git push
+heroku run rake db:migrate
 
+git add .
+git commit -m 'update the readme to include md syntax'
+git push
 
 
 
