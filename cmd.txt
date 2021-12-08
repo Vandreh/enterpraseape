@@ -1,3 +1,6 @@
+Youtube - edutechional - http://www.edutechional.com/
+Class 1 - Comprehensive Ruby on Rails Tutorial Series - https://www.youtube.com/watch?v=VwCwLFV0YVs&list=PLgYiyoyNPrv-j6vFyXP8mgRyvpRqFkjb8&index=2
+
 rails new enterpraseape
 cd enterpraseape
 rake db:create
@@ -21,16 +24,35 @@ heroku run rake db:migrate
 git add .
 git commit -m "update the readme to include md syntax"
 git push
+rake routes
 
 
 
 
 
 
+Class 6 - Removing files from git - https://www.youtube.com/watch?v=t3uZqPoRB0Y&list=PLgYiyoyNPrv-j6vFyXP8mgRyvpRqFkjb8&index=6
+git status
+git rm README.rdoc
+git add .
+git commit -m "cleaned up git repository"
+git push
+git status
 
 
 
 
+
+
+CLass 8 - Building a Functional Nav Bar for a Ruby on Rails Application
+rails g controller welcome index about contact faq pricing features
+git status
+git branch
+git add .
+git status
+git commit -m "built out  navigation and added welcome controller, set root"
+git push
+git push heroku
 
 
 
