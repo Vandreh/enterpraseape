@@ -53,6 +53,11 @@ git status
 git commit -m "built out  navigation and added welcome controller, set root"
 git push
 git push heroku
+heroku open
+git checkout -b testingbranch
+git add .
+git commit -m "testing out branch"
+git push origin testingbranch
 
 
 
