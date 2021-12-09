@@ -82,3 +82,43 @@ git checkout main
 git merge adding-bootstrap
 git push
 git push heroku master
+
+
+
+
+
+
+
+Class 11 - How to Style HTML Tables Using Bootstrap - https://www.youtube.com/watch?v=IFLyuXR25G8&list=PLgYiyoyNPrv-j6vFyXP8mgRyvpRqFkjb8&index=11
+git checkout -b style-table
+git status
+
+
+
+
+
+
+
+
+
+class 12 - How to use the strftime format method in Rails - https://www.youtube.com/watch?v=BjsFwQnwWOg&list=PLgYiyoyNPrv-j6vFyXP8mgRyvpRqFkjb8&index=12
+class 13 - How to Remove a File from Git - https://www.youtube.com/watch?v=5ug095IB0SI&list=PLgYiyoyNPrv-j6vFyXP8mgRyvpRqFkjb8&index=13
+git rm app/assets/stylesheets/aplication.css
+git add .
+git add git commit -m "cleaning up repository"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
