@@ -58,7 +58,7 @@ git checkout -b testingbranch
 git add .
 git commit -m "testing out branch"
 git push origin testingbranch
-git checkout master
+git checkout main
 git merge testingbranch
 
 git checkout -- app/views/layout/application.html.erb
@@ -106,7 +106,7 @@ class 13 - How to Remove a File from Git - https://www.youtube.com/watch?v=5ug09
 git rm app/assets/stylesheets/aplication.css
 git add .
 git add git commit -m "cleaning up repository"
-
+git push origin style-table
 
 
 
