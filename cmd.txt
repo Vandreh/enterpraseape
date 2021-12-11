@@ -149,8 +149,12 @@ rails routes
 
 
 Class 18 - How to style Bootstrap alert messages
-
-
+git checkout -b alerts
+git add .
+git commit -m "adding alerts"
+git push origin alerts
+git checkout main
+git merge alerts
 
 
 
