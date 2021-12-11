@@ -113,6 +113,52 @@ git push origin style-table
 
 
 
+class 14 - Implementing the ability to search a date range in Rails - https://www.youtube.com/watch?v=cXzKQ5R5gBQ&list=PLgYiyoyNPrv-j6vFyXP8mgRyvpRqFkjb8&index=14
+git checkout -b adding-search
+
+
+
+
+Class 15 - How to Install and Configure Devise in a Ruby on Rails Application - https://www.youtube.com/watch?v=YnGuALpJN1M&list=PLgYiyoyNPrv-j6vFyXP8mgRyvpRqFkjb8&index=15
+git checkout -b add-devise
+bundle
+rails generate devise:install
+
+
+rails g devise:views
+rails generate devise User
+rake db:migrate
+rake routes
+
+heroku auth:logout
+heroku addons:add sendgrid:starter
+heroku addons
+heroku config:get SENDGRID_USERNAME
+heroku config:get SENDGRID_PASSWORD
+
+
+
+
+
+Class 17 - Dynamically show and hide links when signed in -  https://www.youtube.com/watch?v=SC6704X-wq4&list=PLgYiyoyNPrv-j6vFyXP8mgRyvpRqFkjb8&index=17
+git checkout -b adding-button-functions
+rails routes
+
+
+
+
+
+Class 18 - How to style Bootstrap alert messages
+
+
+
+
+
+
+
+
+
+
 
 
 
