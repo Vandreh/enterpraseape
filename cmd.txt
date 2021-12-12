@@ -159,10 +159,17 @@ git merge alerts
 
 
 
+Class 19 - How to Build a CSV Uploader into a Ruby on Rails Application
+git checkout -b csv-uploader
+rails g scaffold Company name:string status:string terms:integer --no-stylesheets
+rails routes
 
 
 
 
+
+
+Class 20 - Develop a CSV downloader in Rails
 
 
 
