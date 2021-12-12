@@ -170,6 +170,15 @@ rails routes
 
 
 Class 20 - Develop a CSV downloader in Rails
+git checkout -b csv-downloader
+git add .
+git commit -m "csv-downloader"
+git push origin csv-downloader
+git checkout main
+git merge csv-downloader
+Class 21 - Customizing forms in Rails
+
+
 
 
 
