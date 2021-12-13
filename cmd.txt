@@ -176,12 +176,23 @@ git commit -m "csv-downloader"
 git push origin csv-downloader
 git checkout main
 git merge csv-downloader
+
+
+
+
+
+
 Class 21 - Customizing forms in Rails
-
-
-
-
-
+Class 22 - Integrating a Dropdown Element into a Rails Form - https://www.youtube.com/watch?v=FWIXWutlxIg&list=PLgYiyoyNPrv-j6vFyXP8mgRyvpRqFkjb8&index=22
+git checkout -b adding-selection
+pwd
+rails g migration AddStatusTypeToInvoices status_type:string
+rake db:migrate
+git add .
+git commit -m "adding-selection"
+git push origin adding-selection
+git checkou main
+git merge adding-selection
 
 
 
