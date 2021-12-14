@@ -34,12 +34,12 @@
     </div>
 
     <div class="control-group">
-      <%= form.label :salesperson, class: 'control-label' %>
-        <div class="controls">
-          <%= form.text_field :salesperson %>
-        </div>
+      <%= form.label :employee_id, class: 'control-label' %>
+      <div class="controls">
+        <%= collection_select( :invoice, :employee_id, Employee.all, :id, :name, {}, { :multiple => false } ) %>
+      </div>
     </div>
-
+    
     <div class="control-group">
       <%= form.label "Status", class: 'control-label' %>
       <div class="controls">

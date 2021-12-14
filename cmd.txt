@@ -198,4 +198,24 @@ git merge adding-selection
 
 
 
+Class 23 - How to Use Collection Select in a Rails Application
+git checkout -b add-db-form-call
+rails g scaffold Employee name:string phone:string job_type:string --no-stylesheets
+rake db:migrate
+rails routes
+rails g migration RemoveSalespersonFromInvoices
+rake db:migrate
+rails g migration RemoveSalespersonIdFromInvoices
+rake db:migrate
+git add .
+git commit -m "add-db-form-call"
+git push origin add-db-form-call
+git checkout main
+git merge add-db-form-call
+
+
+
+
+
+
 

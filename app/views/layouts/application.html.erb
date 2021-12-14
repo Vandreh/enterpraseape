@@ -24,6 +24,7 @@
         <li><%= link_to " Pricing ", welcome_pricing_path %></li>
         <li><%= link_to " Invoices ", invoices_path %></li>
         <li><%= link_to " Companies ", companies_path %></li>
+        <li><%= link_to " Employees ", employees_path %></li>
         
         <% if current_user %>  
           <li><%= link_to " Sign Out ", destroy_user_session_path, method: :delete %></li>
