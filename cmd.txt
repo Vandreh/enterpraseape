@@ -217,5 +217,66 @@ git merge add-db-form-call
 
 
 
+Class 24 - How to use the Rails console
+rails c
+Employee.all
+Employee.find_by_name("Jordan")
+Employee.find_by_job_type("Salesperson")
+Employee.where(job_type: "Salesperson")
+Employee.where(job_type: "Salesperson").limit(2)
+Invoice.last
+i = Invoice.last
+i.salesperson.name
+exit
+
+
+
+
+
+
+Class 25 - Advanced techniques for the Rails console
+rails console --sandbox
+Employee.last
+_
+Employee.last.name.upcase
+_.downcase
+_.capitalise
+Employee.all
+_.as_json
+e = Employee.all
+e.to_xml
+e.to_yaml
+e.last
+# e.last.update_attributes(name: "Christine")
+e.last.update(name: "Christine")
+e.where(job_type: "Salesperson").update_all(phone: '555-555-5555')
+e.first.destroy
+reload! (Reloads the attributes of this object from the database.)
+
+
+
+
+
+
+Class 26 - How to Fix a NoMethodError in Rails
+Class 27 - Bootstrap navigation dropdown
+git checkout -b adding-dropdown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

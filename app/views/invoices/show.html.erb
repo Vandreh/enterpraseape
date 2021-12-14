@@ -2,7 +2,7 @@
 
 <p>
   <strong>Data:</strong>
-  <%= @invoice.data %>
+  <%= @invoice.data.strftime("%y/%m/%d") %>
 </p>
 
 <p>
@@ -17,7 +17,7 @@
 
 <p>
   <strong>Salesperson:</strong>
-  <%= @invoice.employee_id %>
+  <%= @invoice.employee.name %>
 </p>
 
 <%= link_to 'Edit', edit_invoice_path(@invoice), class: 'btn btn-default' %> |
