@@ -261,13 +261,24 @@ reload! (Reloads the attributes of this object from the database.)
 Class 26 - How to Fix a NoMethodError in Rails
 Class 27 - Bootstrap navigation dropdown
 git checkout -b adding-dropdown
+git add .
+git commit -m "adding-dropdown"
+git push origin adding-dropdown
+git checkout main
+git merge adding-dropdown
 
 
 
 
 
-
-
+Class 28 - How to create a Rails scaffold with references - https://www.youtube.com/watch?v=Pb67l_JIFHk&list=PLgYiyoyNPrv-j6vFyXP8mgRyvpRqFkjb8&index=28
+git checkout -b adding-purchases
+rails g scaffold Purchase name:string category:string quantity:integer invoice:references
+git add .
+git commit -m "adding-purchases"
+git push origin adding-purchases
+git checkout main
+git merge adding-purchases
 
 
 
