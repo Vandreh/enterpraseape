@@ -10,6 +10,8 @@ class InvoicesController < ApplicationController
 
   # GET /invoices/1 or /invoices/1.json
   def show
+    @invoice = Invoice.find(params[:id])
+    @purchases = @invoice.purchases
   end
 
   # GET /invoices/new

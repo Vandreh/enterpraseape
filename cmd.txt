@@ -284,6 +284,34 @@ git merge adding-purchases
 
 
 
+Class 29 - Add new items in the Rails console
+rails c
+i = Invoice.last
+i.date
+Purchase.create(name: "Laptop", category: "Hardwere", quantity: 2, invoice: i)
+Purchase.create(name: "Desktop", category: "Hardwere", quantity: 2, invoice: i)
+i.purchases.all
+
+
+
+
+
+Class 30 - How to Use Nesting in a Ruby on Rails Application
+git checkout -b nesting-purchases
+git add .
+git commit -m "nesting-purchases"
+git push origin nesting-purchases
+git checkout main
+git merge nesting-purchases
+
+
+
+
+
+
+Class 31 - Adding items to nested attributes in Rails
+
+
 
 
 
