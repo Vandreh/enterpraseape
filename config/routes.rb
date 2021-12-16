@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   root to: 'welcome#index'
   # get '/', to: 'welcome#index'
   resources :invoices do
-    resources :purchases, except: [:index], controller: 'invoices/purchases'
+    resources :purchases, controller: 'invoices/purchases'
+    # resources :purchases, except: [:index], controller: 'invoices/purchases'
   end
 end

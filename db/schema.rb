@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_12_14_175828) do
+ActiveRecord::Schema.define(version: 2021_12_16_052621) do
 
   create_table "companies", force: :cascade do |t|
     t.string "name"
@@ -45,6 +45,7 @@ ActiveRecord::Schema.define(version: 2021_12_14_175828) do
     t.integer "invoice_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.decimal "price"
     t.index ["invoice_id"], name: "index_purchases_on_invoice_id"
   end
 

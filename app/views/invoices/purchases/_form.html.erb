@@ -1,5 +1,5 @@
-<%= form_with(model: purchase) do |form| %>
-  <% if purchase.errors.any? %>
+<%= form_for [@invoice, @purchase] do |form| %>
+  <!-- <% if purchase.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(purchase.errors.count, "error") %> prohibited this purchase from being saved:</h2>
 
@@ -9,7 +9,7 @@
         <% end %>
       </ul>
     </div>
-  <% end %>
+  <% end %> -->
 
   <div class="field">
     <%= form.label :name %>
@@ -27,8 +27,8 @@
   </div>
 
   <div class="field">
-    <%= form.label :invoice_id %>
-    <%= form.text_field :invoice_id %>
+    <%= form.label :price %>
+    <%= form.number_field :price, step: 0.01 %>
   </div>
 
   <div class="actions">

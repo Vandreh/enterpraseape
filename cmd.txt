@@ -170,6 +170,8 @@ rails routes
 
 
 Class 20 - Develop a CSV downloader in Rails
+Não funcionou muito bem
+
 git checkout -b csv-downloader
 git add .
 git commit -m "csv-downloader"
@@ -309,7 +311,62 @@ git merge nesting-purchases
 
 
 
-Class 31 - Adding items to nested attributes in Rails
+Class 31 - Adding items to nested attributes in Rails - https://www.youtube.com/watch?v=WdaO0-DvjJw&list=PLgYiyoyNPrv-j6vFyXP8mgRyvpRqFkjb8&index=31
+rails routes
+rails s
+
+
+
+
+
+
+Class 32 - Deleting nested attributes in a Rails application - https://www.youtube.com/watch?v=6cmwywd4pcQ&list=PLgYiyoyNPrv-j6vFyXP8mgRyvpRqFkjb8&index=32
+Não funcionou muito bem
+Class 33 - Using migrations to add a column to a database table in Rails
+rails g migration AddPriceToPurchases
+rails g migration add_price_to_purchases price:decimal
+rake db:migrate
+rails c
+    Purchase.last
+
+
+
+
+Class 34 - How to integrate the number to currency method in Rails
+Class 35 - Performing calculations in Rails
+Class 36 - How to quiet the Rails server
+gem 'quiet_assets', :group => :development (DEPRECATED)
+bundle install
+
+
+Class 37 - Fixing the glyphicon Heroku bug in a Rails bootstrap app
+Class 38 - Summary of Introduction to Rails Course
+https://github.com/jordanhudgens?tab=repositories
+
+https://www.thinkful.com/
+https://www.pluralsight.com/
+https://www.pluralsight.com/product/skills?utm_term=&pslp=product-skills&aid=701j0000002BGhJAAW&promo=&utm_source=branded&utm_medium=digital_paid_search_google&utm_campaign=NASA_BRA_Brand_E&utm_content=&cq_cmp=230416878&gclid=Cj0KCQiAweaNBhDEARIsAJ5hwbdRvZJJ7PUIBaQZkVab74l0uGgd3OGw55EfbP1YZjIxeslSr7jxUo8aAsLSEALw_wcB
+http://railscasts.com/
+
+
+
+
+Class 39 - Edit Nested Resources in a Rails Application
+rails routes | grep purchase
+
+
+
+
+Class 40 - Removing Duplicate Alerts in Rails
+Class 41 - Upgrading from Rails 4 to Rails 4.2
+bundle update
+
+git add .
+git commit -m "Ultima aula 41"
+git push
+git push heroku main
+
+
 
 
 
